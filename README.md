@@ -10,7 +10,7 @@ sudo apt-get update && sudo apt-get install git -y
 
 * Instalando script
 ```
-git clone https://github.com/Jrtnetvpn/GLManager-master.git
+git clone https://github.com/Jrtnetvpn/GLManager.git
 cd GLManager
 pip3 install -r requirements.txt
 ```
@@ -29,24 +29,25 @@ sudo apt-get update && sudo apt-get install git python3 python3-pip -y
 
 * Instalando script
 ```
-pip3 install git+https://github.com/Jrtnetvpn/GLManager-master.git
+pip3 install git+https://github.com/Jrtnetvpn/GLManager.git
 ```
 #### Ou
 ```
-git clone https://github.com/Jrtnetvpn/GLManager-master.git
+git clone https://github.com/Jrtnetvpn/GLManager.git
 cd GLManager
 python3 setup.py install
 ```
 
 ## Atualize o script
 ```
-pip3 install --upgrade git+https://github.com/Jrtnetvpn/GLManager-master.git
+pip3 install --upgrade git+https://github.com/Jrtnetvpn/GLManager.git
 ```
 #### Ou
 ```
 cd ~/
 rm -rf GLManager
-git clone git+https://github.com/Jrtnetvpn/GLManager-master.git
+git clone git+https://github.com/Jrtnetvpn/GLManager
+.git
 cd GLManager
 python3 setup.py install
 ```
